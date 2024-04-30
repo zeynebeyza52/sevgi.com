@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#sayfa
+{
+    width: 100%;
+    max-width: 1470px;
+    border-style: solid;
+    border-width: 1px;
+    margin: auto;
+}
+
+#banner
+{  
+    width: 1470px;
+    height: 50px;
+    background-color: lightblue;
+
+}
+
+
+#iletisim ul li{
+    float:left;
+    display: block;
+    color:white;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 30px;
+    margin-left: 10%;
+    margin-top: 1%;
+
+}
+
+#sosyalmedya ul li{
+    float:right;
+    display: block;
+    margin:5px;
+    left: 10%;
+}
+
+
+#banner2
+{
+    width: 100%;
+    max-width: 1465px;
+    height: 100%;
+    background-color: white;
+    border-style: solid;
+    border-width: 2px;
+     border-color: lightblue;
+    
+}
+
+#logo
+{
+    width: 180px;
+    height: 150px;
+    margin-left: 200px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+#banner2 ul{
+    float:right;
+    margin-right: 8%;
+}
+
+#banner2 ul li{
+    list-style-type: none;
+    display:inline-block;
+    
+    line-height: 150px;
+    
+}
+
+#banner2 ul li a{
+    color:blue;
+    text-decoration: none;
+    font-size: 20px;
+    padding:10px 20px;
+    font-family: Roboto Condensed;
+}
+
+#banner2 ul li a:hover{
+    color: orange;
+}
+
+#aciklama
+{
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-image: url(images/about-bg.jpg);
+    height: 600px;
+    margin-bottom: 5%;
+   
+}
+
+#title
+{
+   float:left;
+   display: block;
+   font-family: Dosis ;
+   color:rgb(227, 172, 31);
+   font-size: 27px;
+   margin-left: 10%;
+   margin-top: 10%;
+   
+}
+
+
+
+#paragraf
+{
+    
+    font-size: 20px;
+    font-family: Dosis;
+    
+}
+
+#resim
+{
+    float:right;
+    margin-right: 10%;
+    margin-top: 8%;
+}
+
+
+#tablo h2
+{
+   font-family: Dosis;
+   font-size: 40px;
+   color: #1c84b9;
+   margin-top: 70px;
+}
+
+#part1
+{
+    margin-top: 6%;
+}
+
+#egitim
+{
+    width: 350px;
+    height: 300px ;
+    background-color: rgb(222, 237, 241);
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgb(62 60 60 / 15%), -10px -10px 10px hsl(0 0 100% / 25%);
+    float:left;
+    margin-left: 12%;
+    margin-bottom: 6%;
+
+}
+
+#sevgi
+{
+    width: 350px;
+    height: 300px ;
+    background-color: rgb(222, 237, 241);
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgb(62 60 60 / 15%), -10px -10px 10px hsl(0 0 100% / 25%);
+    float:right;
+    margin-right: 12%;
+    margin-bottom: 6%;
+}
+
+#yemek
+{
+    width: 350px;
+    height: 300px ;
+    background-color: rgb(222, 237, 241);
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgb(62 60 60 / 15%), -10px -10px 10px hsl(0 0 100% / 25%);
+    float:left;
+    margin-left: 12%;
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+
+#servis
+{
+    width: 350px;
+    height: 300px ;
+    background-color: rgb(222, 237, 241);
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgb(62 60 60 / 15%), -10px -10px 10px hsl(0 0 100% / 25%);
+    float:right;
+    margin-right: 12%;
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+
+#amblem
+{
+   margin-top: 20%;
+}
+
+#egitim img{
+    float:right;
+}
+
+#sevgi img{
+    float:left;
+}
+
+#yemek img
+{
+    float:right;
+}
+
+#servis img
+{
+    float:left;
+}
+
+#egitim h1{
+    color:#1c84b9;
+    font-size: 25px;
+    margin-left: 20px ;
+    margin-top: 30px;
+    font-family: Dosis;
+}
+
+#egitim p{
+    color:#1c84b9;
+    font-size: 20px;
+    float:left;
+    margin-top: 18px;
+    margin-left: 20px;
+}
+
+#sevgi h1{
+    color:#1c84b9;
+    font-size: 25px;
+    margin-left: 30px ;
+    margin-top: 30px;
+    font-family: Dosis;
+}
+
+#sevgi p{
+    color:#1c84b9;
+    font-size: 20px;
+    float:left;
+    margin-top: 18px;
+    margin-left: 20px;
+}
+
+#yemek h1{
+    color:#1c84b9;
+    font-size: 25px;
+    margin-left: 30px ;
+    margin-top: 30px;
+    font-family: Dosis;
+}
+
+#yemek p{
+    color:#1c84b9;
+    font-size: 20px;
+    float:left;
+    margin-top: 18px;
+    margin-left: 20px;
+}
+
+#servis h1{
+    color:#1c84b9;
+    font-size: 25px;
+    margin-left: 30px ;
+    margin-top: 30px;
+    font-family: Dosis;
+}
+
+#servis p{
+    color:#1c84b9;
+    font-size: 20px;
+    float:left;
+    margin-top: 18px;
+    margin-left: 20px;
+}
+
+#form
+{
+  width: 100%;
+  max-width: 1470px;
+  height: 200px;
+  background-image: url(images/bg2.jpg);
+  margin-top: 30%;
+  
+
+}
+
+#kayit h2
+{
+    font-size: 50px;
+    color:white;
+    font-family: Dosis;
+    margin-left: 200px;
+    position: relative;
+    top:50px;
+    
+}
+
+#kayit p{
+    font-size: 20px;
+    color:white;
+    font-family: Dosis;
+    margin-left: 200px;
+    position: relative;
+    top:50px;
+}
+
+#button 
+{
+    float:right;
+    margin-right: 50px;
+    width: 150px;
+    height: 50px;
+    position: relative;
+    right: 100px;
+    bottom: 30px;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    border-width: 2px;
+}
+
+footer{
+    width: 100%;
+    max-width: 1470px;
+    height: 350px;
+    background-color: lightblue;
+}
+
+footer img{
+    margin-left: 300px;
+    margin-top: 60px;
+}
+
+footer h2{
+    float:right;
+    font-size: 30px;
+    margin-right: 350px;
+    margin-top: 50px;
+    color: #1c84b9;
+    font-family: Dosis;
+}
+
+footer p{
+    float:right;
+    font-size: 20px;
+    margin-right: 120px;
+    color: #1c84b9;
+    font-weight: bold;
+    font-family: Dosis;
+    margin-top: -200px;
+}

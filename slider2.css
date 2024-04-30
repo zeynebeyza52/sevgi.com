@@ -1,0 +1,46 @@
+body{
+    margin:0;
+    padding:0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+.cerceve
+{
+    width: 85%;
+    margin-left: 7%;
+    overflow: hidden;
+    box-sizing: border-box;
+    
+} 
+
+
+.galeri
+{
+    position:relative;
+    width: 400%;
+    left:0;
+    animation: 12s slayt infinite;
+
+}
+
+.galeri img{
+    width: 25%;
+    float:left;
+}
+
+@keyframes slayt
+{
+    0%{left:0%;}
+    30%{left:0%;}
+    35%{left:-100%;}
+    65%{left:-100%;}
+    70%{left:-200%;}
+    95%{left:-200%;}
+    
+}

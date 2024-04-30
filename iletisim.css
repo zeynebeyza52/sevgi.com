@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#sayfa
+{
+    width: 1471px;
+    border-style: solid;
+    border-width: 1px;
+    margin: auto;
+    
+    
+}
+
+#banner
+{
+   width: 1471px;
+   height: 50px;
+   background-color: lightblue;
+
+}
+
+
+#iletisim ul li{
+    float:left;
+    display: block;
+    color:white;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 30px;
+    margin-left: 10%;
+    margin-top: 1%;
+
+}
+
+#sosyalmedya ul li{
+    float:right;
+    display: block;
+    margin:5px;
+    left: 10%;
+}
+
+
+#banner2
+{
+    width: 120%;
+    max-width: 1465px;
+    height: 100%;
+    background-color: white;
+   border-style: solid;
+   border-width: 2px;
+    border-color: lightblue;
+}
+
+#logo
+{
+    width: 180px;
+    height: 150px;
+    margin-left: 200px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+#banner2 ul{
+    float:right;
+    margin-right: 8%;
+}
+
+#banner2 ul li{
+    list-style-type: none;
+    display:inline-block;
+    
+    line-height: 150px;
+    
+}
+
+#banner2 ul li a{
+    color:blue;
+    text-decoration: none;
+    font-size: 20px;
+    padding:10px 20px;
+    font-family: Roboto Condensed;
+}
+
+#banner2 ul li a:hover{
+    color: orange;
+}
+
+#bilgiler h2{
+    font-size: 30px;
+    font-family: Dosis;
+    color: #1c84b9 ;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#bilgiler ul
+{
+    list-style-type: none;
+   
+}
+
+#bilgiler ul li {
+    
+    margin-left: 210px;
+    display: block;
+    float: left;
+}
+
+#bilgiler ul li p{
+    font-family: Dosis;
+    color: #1c84b9;
+    font-size: 20px;
+
+}
+
+form{
+    text-align: center;
+    margin-top: 400px;
+    width: 1000px;
+    height: 700px;
+    border-style: solid;
+    border-color: lightblue;
+    border-width: 2px;
+    margin-bottom: 100px;
+
+}
+
+h2{
+    font-size: 40px;
+    color: #1c84b9;
+    font-family: Dosis;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+form p{
+    font-size: 20px;
+    color:gray;
+    font-family: Dosis;
+
+
+}
+
+form label{
+    font-size: 25px;
+    color: #1c84b9;
+    font-family: Dosis;
+    font-weight:500;
+    
+    margin-bottom: 30px;
+}
+
+form input{
+    font-size: 25px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+#mail
+{
+    
+    font-size: 25px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    width: 500px;
+}
+
+#ileti
+{
+    font-size: 25px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    width: 520px;
+    height: 250px;
+}
+
+#kaydet{
+    width: 150px;
+    height: 50px;
+    color:#1c84b9;
+    background-color: transparent;
+    font-weight: 520;
+    margin-left: 40px;
+}
+
+footer{
+    width: 100%;
+    max-width: 1470px;
+    height: 350px;
+    background-color: lightblue;
+}
+
+footer img{
+    margin-left: 300px;
+    margin-top: 60px;
+}
+
+footer h2{
+    float:right;
+    font-size: 30px;
+    margin-right: 350px;
+    margin-top: 50px;
+    color: #1c84b9;
+    font-family: Dosis;
+}
+
+footer p{
+    float:right;
+    font-size: 20px;
+    margin-right: 120px;
+    color: #1c84b9;
+    font-weight: bold;
+    font-family: Dosis;
+    margin-top: -200px;
+}
